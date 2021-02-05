@@ -1,8 +1,90 @@
-/* logo */
+/* reset margin */
+
+* {
+  margin: 0px;
+}
+
+.img {
+  width: 1024px;
+  margin: auto;
+}
+
+/* header */
+header {
+  background-color: lightblue;
+  background-image: url(../img/pattern.png);
+  background-size: 300px;
+}
 
 .logo {
-  width: 100px;
+  height: 50px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+/* fine header */
+
+h1 {
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.span-blue {
+  color: blue;
+}
+
+.photo {
   margin-top: 20px;
-  margin-left: 60px;
-  background-image: url(pattern.png);
+  margin-left: 20px;
+}
+
+.yellow-c {
+  background-color: yellow;
+}
+
+table {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.table-width {
+  width: 50%;
+}
+
+.sky-blue {
+  background-color: skyblue;
+}
+
+.yellow-fix {
+  background-color: yellow;
+}
+
+.left-moving {
+  margin-left: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+  color: grey;
+}
+
+#computer {
+  font-size: 20px;
+  color: white;
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+#graph {
+  font-size: 20px;
+  color: white;
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }
